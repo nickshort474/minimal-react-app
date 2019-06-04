@@ -4,10 +4,11 @@ import {HashRouter as Router, Route} from 'react-router-dom';
 import TopNav from '../Navigation/TopNav';
 import Footer from '../Navigation/Footer';
 
-import HomePage from '../HomePage/Homepage';
-import Alternate from '../Alternate/Alternate';
+import Home from '../Home/Home';
+import Contact from '../Contact/Contact';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 
 export default class App extends Component {
 	render(){
@@ -15,9 +16,9 @@ export default class App extends Component {
 			<Router>
 				<div>
 					<TopNav />
-					<Route exact path={"/"} component={HomePage} />
-					<Route path={"/Home"} component={HomePage} />
-					<Route path={"/Alternate"} component={Alternate} />
+					<Route exact path={"/"} component={Home} />
+					<Route path={"/Home"} component={Home} />
+					<Route path={"/Contact"} component={Contact} />
 					<Footer />
 				</div>
 

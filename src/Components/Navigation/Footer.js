@@ -6,8 +6,8 @@ export default class Footer extends Component{
 	render(){
 		return(
 			<div>
-				<Link to="/Home">Home</Link><br />
-				<Link to="/Alternate">Alternate</Link>
+				<Link to="/Home">Home</Link>
+				<Link to="/Contact">Contact</Link>
 			</div>
 		)
 	}

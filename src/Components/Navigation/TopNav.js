@@ -7,7 +7,7 @@ export default class TopNav extends Component{
 		return(
 			<div>
 				<Link to="/Home">Home</Link>
-				<Link to="/Alternate">Alternate</Link>
+				<Link to="/Contact">Contact</Link>
 			</div>
 		)
 	}
